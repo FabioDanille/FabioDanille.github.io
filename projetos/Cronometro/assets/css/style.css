@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background: rgb(26, 150, 127);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 360px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.relogio {
+    font-size: 3em;
+}
+
+.iniciar {
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.iniciar:hover{
+    background-color: aqua;
+}
+
+.pausar {
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.pausar:hover{
+    background-color: aqua;
+}
+
+.zerar {
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.zerar:hover{
+    background-color: aqua;
+}
+
+.pausado {
+    color: red;
+}
+
+.zerado {
+    color:blue
+}
+
+.titulo {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

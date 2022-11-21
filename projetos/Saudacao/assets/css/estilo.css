@@ -1,0 +1,35 @@
+body {
+    background: rgb(255, 17, 0) ;
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+section {
+    background: white;
+    border-radius: 10px; /*Borda mais arredondada*/
+    padding: 15px; /*Espaço Interno*/ 
+    width: 500px; /*Largura Fixa*/
+    margin: auto; /*Centralizar na tela*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671)
+    /*Colocar uma sombra na caixinha. 
+    5px Deslocamento Lateral;
+    5px Deslocamento Vertical;
+    10px Espalhamento;*/
+
+}
+
+div{
+    text-align: center;
+    padding: 8px; /*espaçamento*/
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

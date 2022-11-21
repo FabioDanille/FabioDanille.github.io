@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+body{
+    background-image: linear-gradient(45deg,rgb(1, 51, 66), rgb(22, 165, 170));
+}
+
+.calculator {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+table td{
+    display: inline-block;
+}
+
+#insert{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(61, 60, 60);
+    font-size: 16px;
+    transition: all 500ms ease-in-out;
+}
+
+#insert:hover{
+    background-color: #1b3f50;
+}
+
+#insertEsp{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: gray
+}
+
+#insertEsp:hover{
+    background-color: rgb(189, 188, 188);
+}
+
+#res{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(59, 20, 168)
+}
+
+#res:hover{
+    background-color: rgb(75, 75, 247);
+}
+
+#backspace{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: gray
+}
+
+#backspace:hover{
+    background-color: rgb(189, 188, 188);
+}
+
+#reset{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(59, 20, 168)
+}
+
+#reset:hover{
+    background-color: rgb(75, 75, 247);
+}
+
+.result {
+    height: 70px;
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    word-wrap: break-word;
+    border-bottom: 2px solid white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 150px;
+}

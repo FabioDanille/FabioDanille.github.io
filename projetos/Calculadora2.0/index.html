@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ed82b5646e.js" 
+    crossorigin="anonymous"></script>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div class="conteudo">
+        <div class="calculator">
+            <p class="result" id="resultado"></p>
+        
+        <table>
+            <tr>
+                <td colspan="2"><button id="reset" style="width: 106px;" onclick="clean()">AC</button></td>
+                <td><button id="backspace" onclick="backspace()"><i class="fas fa-backspace"></i></button></td>
+                <td><button id="insertEsp" onclick="insert('/')"><i class="fas fa-divide"></i></button></td>
+            </tr>
+
+            <tr>
+                <td><button id="insert" onclick="insert(9)">9</button></td>
+                <td><button id="insert" onclick="insert(8)">8</i></button></td>
+                <td><button id="insert" onclick="insert(7)">7</button></td>
+                <td><button id="insertEsp" onclick="insert('*')">x</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="insert" onclick="insert(6)">6</button></td>
+                <td><button id="insert" onclick="insert(5)">5</i></button></td>
+                <td><button id="insert" onclick="insert(4)">4</button></td>
+                <td><button id="insertEsp" onclick="insert('+')">+</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="insert" onclick="insert(3)">3</button></td>
+                <td><button id="insert" onclick="insert(2)">2</i></button></td>
+                <td><button id="insert" onclick="insert(1)">1</button></td>
+                <td><button id="insertEsp" onclick="insert('-')">-</button></td>
+            </tr>
+            
+            <tr>
+                <td><button id="insert" onclick="insert(0)">0</button></td>
+                <td><button id="insert" onclick="insert('.')">.</i></button></td>
+                <td rowspan="2"><button id="res" style="width: 106px;" onclick="equal()">=</button></td>
+            </tr>
+        </table>
+        
+    </div>
+</div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
